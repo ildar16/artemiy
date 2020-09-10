@@ -1,0 +1,9 @@
+# Set default charset.
+AddDefaultCharset utf-8
+AddCharset utf-8 *
+
+# Set default index page.
+DirectoryIndex index.php
+
+# Don't show directory listings for URLs which map to a directory.
+Options -Indexes
